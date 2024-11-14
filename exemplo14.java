@@ -20,7 +20,7 @@ public class exemplo14 {
 		int soma = d1+d2+d3+d4+d5;
 		if (soma == 2) {
 			System.out.println("Suspeito");
-		}else if (soma == 3 && soma == 4 ) {
+		}else if (soma == 3 || soma == 4 ) {
 			System.out.println("Cúmplice");
 		}else if (soma == 5) {
 			System.out.println("Assassino");
